@@ -44,7 +44,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 11
 Title ""
-Date "19 sep 2014"
+Date "25 nov 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -88,7 +88,7 @@ Wire Wire Line
 	5900 1700 5900 1650
 Connection ~ 5900 1650
 Wire Wire Line
-	5850 1750 5975 1750
+	5300 1750 5975 1750
 Wire Wire Line
 	5975 1800 5900 1800
 Wire Wire Line
@@ -1583,6 +1583,17 @@ Wire Wire Line
 Text Label 5450 1900 2    50   ~ 0
 VBAT
 NoConn ~ 5450 1900
-Text Label 5850 1750 2    40   ~ 0
+$Comp
+L R R75
+U 1 1 544DDFFF
+P 5050 1750
+F 0 "R75" V 5050 1750 40  0000 C CNN
+F 1 "0R/1206" V 4950 1750 40  0000 C CNN
+F 2 "~" V 4980 1750 30  0000 C CNN
+F 3 "~" H 5050 1750 30  0000 C CNN
+	1    5050 1750
+	0    -1   -1   0   
+$EndComp
+Text HLabel 4800 1750 0    40   UnSpc ~ 0
 3V3
 $EndSCHEMATC

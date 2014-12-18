@@ -44,7 +44,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 11
 Title ""
-Date "19 sep 2014"
+Date "25 nov 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -354,10 +354,10 @@ LCD0_VSYNC
 Text HLabel 1425 1600 0    50   UnSpc ~ 0
 GND
 $Comp
-L GND #PWR0197
+L GND #PWR0226
 U 1 1 53E5CB9F
 P 1850 1600
-F 0 "#PWR0197" H 1850 1600 30  0001 C CNN
+F 0 "#PWR0226" H 1850 1600 30  0001 C CNN
 F 1 "GND" H 1850 1530 30  0001 C CNN
 F 2 "" H 1850 1600 60  0000 C CNN
 F 3 "" H 1850 1600 60  0000 C CNN
@@ -399,10 +399,10 @@ Y1
 Text GLabel 5175 1850 0    30   UnSpc ~ 0
 Y2
 $Comp
-L GND #PWR0198
+L GND #PWR0227
 U 1 1 53E5E13A
 P 4950 6000
-F 0 "#PWR0198" H 4950 6000 30  0001 C CNN
+F 0 "#PWR0227" H 4950 6000 30  0001 C CNN
 F 1 "GND" H 4950 5930 30  0001 C CNN
 F 2 "" H 4950 6000 60  0000 C CNN
 F 3 "" H 4950 6000 60  0000 C CNN
@@ -498,4 +498,222 @@ Wire Wire Line
 	5450 2050 5175 2050
 Wire Wire Line
 	5450 1950 5175 1950
+$Comp
+L CON_1X40 J16
+U 1 1 544BA6A1
+P 7200 5450
+F 0 "J16" H 7450 1350 60  0000 C CNN
+F 1 "CON_1X40" H 7500 5650 60  0000 C CNN
+F 2 "" H 7200 5450 60  0000 C CNN
+F 3 "" H 7200 5450 60  0000 C CNN
+	1    7200 5450
+	1    0    0    1   
+$EndComp
+Text GLabel 6925 2050 0    30   UnSpc ~ 0
+LCD0_D0
+Text GLabel 6925 2150 0    30   UnSpc ~ 0
+LCD0_D1
+Text GLabel 6925 2250 0    30   UnSpc ~ 0
+LCD0_D2
+Text GLabel 6925 2350 0    30   UnSpc ~ 0
+LCD0_D3
+Text GLabel 6925 2450 0    30   UnSpc ~ 0
+LCD0_D4
+Text GLabel 6925 2550 0    30   UnSpc ~ 0
+LCD0_D5
+Text GLabel 6925 2650 0    30   UnSpc ~ 0
+LCD0_D6
+Text GLabel 6925 2750 0    30   UnSpc ~ 0
+LCD0_D7
+Text GLabel 6925 2850 0    30   UnSpc ~ 0
+LCD0_D8
+Text GLabel 6925 2950 0    30   UnSpc ~ 0
+LCD0_D9
+Text GLabel 6925 3050 0    30   UnSpc ~ 0
+LCD0_D10
+Text GLabel 6925 3150 0    30   UnSpc ~ 0
+LCD0_D11
+Text GLabel 6925 3250 0    30   UnSpc ~ 0
+LCD0_D12
+Text GLabel 6925 3350 0    30   UnSpc ~ 0
+LCD0_D13
+Text GLabel 6925 3450 0    30   UnSpc ~ 0
+LCD0_D14
+Text GLabel 6925 3550 0    30   UnSpc ~ 0
+LCD0_D15
+Text GLabel 6925 3650 0    30   UnSpc ~ 0
+LCD0_D16
+Text GLabel 6925 3750 0    30   UnSpc ~ 0
+LCD0_D17
+Text GLabel 6925 3850 0    30   UnSpc ~ 0
+LCD0_D18
+Text GLabel 6925 3950 0    30   UnSpc ~ 0
+LCD0_D19
+Text GLabel 6925 4050 0    30   UnSpc ~ 0
+LCD0_D20
+Text GLabel 6925 4150 0    30   UnSpc ~ 0
+LCD0_D21
+Text GLabel 6925 4250 0    30   UnSpc ~ 0
+LCD0_D22
+Text GLabel 6925 4350 0    30   UnSpc ~ 0
+LCD0_D23
+Text GLabel 6925 4450 0    30   UnSpc ~ 0
+LCD0_CLK
+Text GLabel 6925 4550 0    30   UnSpc ~ 0
+LCD0_DE
+Text GLabel 6925 4650 0    30   UnSpc ~ 0
+LCD0_HSYNC
+Text GLabel 6925 4750 0    30   UnSpc ~ 0
+LCD0_VSYNC
+Text GLabel 6925 1550 0    30   UnSpc ~ 0
+X1
+Text GLabel 6925 1650 0    30   UnSpc ~ 0
+X2
+Text GLabel 6925 1750 0    30   UnSpc ~ 0
+Y1
+Text GLabel 6925 1850 0    30   UnSpc ~ 0
+Y2
+$Comp
+L GND #PWR0228
+U 1 1 544BA6C7
+P 7000 6050
+F 0 "#PWR0228" H 7000 6050 30  0001 C CNN
+F 1 "GND" H 7000 5980 30  0001 C CNN
+F 2 "" H 7000 6050 60  0000 C CNN
+F 3 "" H 7000 6050 60  0000 C CNN
+	1    7000 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1550 6925 1550
+Wire Wire Line
+	7200 1650 6925 1650
+Wire Wire Line
+	7200 1750 6925 1750
+Wire Wire Line
+	7200 1850 6925 1850
+Wire Wire Line
+	6925 4650 7200 4650
+Wire Wire Line
+	7200 4550 6925 4550
+Wire Wire Line
+	7200 4450 6925 4450
+Wire Wire Line
+	7200 4350 6925 4350
+Wire Wire Line
+	7200 4250 6925 4250
+Wire Wire Line
+	7200 4150 6925 4150
+Wire Wire Line
+	7200 4050 6925 4050
+Wire Wire Line
+	7200 3950 6925 3950
+Wire Wire Line
+	7200 3850 6925 3850
+Wire Wire Line
+	7200 3750 6925 3750
+Wire Wire Line
+	7200 3650 6925 3650
+Wire Wire Line
+	7200 3550 6925 3550
+Wire Wire Line
+	7200 3450 6925 3450
+Wire Wire Line
+	7200 3350 6925 3350
+Wire Wire Line
+	7200 3250 6925 3250
+Wire Wire Line
+	7200 3150 6925 3150
+Wire Wire Line
+	7200 3050 6925 3050
+Wire Wire Line
+	7200 2950 6925 2950
+Wire Wire Line
+	7200 2850 6925 2850
+Wire Wire Line
+	7200 2750 6925 2750
+Wire Wire Line
+	7200 2650 6925 2650
+Wire Wire Line
+	7200 2550 6925 2550
+Wire Wire Line
+	7200 2450 6925 2450
+Wire Wire Line
+	7200 2350 6925 2350
+Wire Wire Line
+	7200 2250 6925 2250
+Wire Wire Line
+	7200 2150 6925 2150
+Wire Wire Line
+	7200 2050 6925 2050
+Wire Wire Line
+	6650 1950 7200 1950
+Wire Wire Line
+	7000 6050 7000 5350
+Wire Wire Line
+	7000 5350 7200 5350
+Wire Wire Line
+	7200 5450 7000 5450
+Connection ~ 7000 5450
+Text GLabel 6925 4950 0    30   UnSpc ~ 0
+PWM0
+Text GLabel 6925 5050 0    30   UnSpc ~ 0
+5V
+Wire Wire Line
+	6925 4750 7200 4750
+Wire Wire Line
+	6675 4850 7200 4850
+Wire Wire Line
+	6925 4950 7200 4950
+Wire Wire Line
+	6925 5050 7200 5050
+Text GLabel 1675 5025 2    30   UnSpc ~ 0
+PWM0
+Text HLabel 1400 5025 0    50   UnSpc ~ 0
+PWM0
+Text HLabel 1400 5125 0    50   UnSpc ~ 0
+PH27
+Text GLabel 1675 5125 2    30   UnSpc ~ 0
+PH27
+Text GLabel 1675 5325 2    30   UnSpc ~ 0
+5V
+Text HLabel 1400 5325 0    50   UnSpc ~ 0
+5V
+Wire Wire Line
+	1400 5025 1675 5025
+Wire Wire Line
+	1400 5125 1675 5125
+Wire Wire Line
+	1400 5325 1675 5325
+$Comp
+L GND #PWR0229
+U 1 1 545218F8
+P 6650 1950
+F 0 "#PWR0229" H 6650 1950 30  0001 C CNN
+F 1 "GND" H 6650 1880 30  0001 C CNN
+F 2 "" H 6650 1950 60  0000 C CNN
+F 3 "" H 6650 1950 60  0000 C CNN
+	1    6650 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR0230
+U 1 1 54521900
+P 6675 4850
+F 0 "#PWR0230" H 6675 4850 30  0001 C CNN
+F 1 "GND" H 6675 4780 30  0001 C CNN
+F 2 "" H 6675 4850 60  0000 C CNN
+F 3 "" H 6675 4850 60  0000 C CNN
+	1    6675 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7200 5150 7000 5150
+Wire Wire Line
+	7000 5150 7000 5050
+Connection ~ 7000 5050
+Text GLabel 6925 5250 0    30   UnSpc ~ 0
+PH27
+Wire Wire Line
+	7200 5250 6925 5250
 $EndSCHEMATC

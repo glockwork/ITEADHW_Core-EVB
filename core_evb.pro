@@ -1,6 +1,6 @@
-update=2014/9/19 17:10:13
+update=2014/11/26 15:54:28
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -53,8 +53,6 @@ LibName23=pcbsymbol/OPEN SOURCE
 LibName24=pcbsymbol/SOCKET
 LibName25=core_evb_logo
 LibName26=OPEN SOURCE
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -102,3 +100,5 @@ LibName35=schsymbol/DISCRETE
 LibName36=schsymbol/HDMI
 LibName37=schsymbol/MODULE
 LibName38=schsymbol/TRANSISTOR
+[general]
+version=1

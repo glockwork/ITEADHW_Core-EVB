@@ -44,7 +44,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 11
 Title "Core EVB"
-Date "19 sep 2014"
+Date "25 nov 2014"
 Rev "V1.0"
 Comp "Itead studio"
 Comment1 ""
@@ -100,6 +100,7 @@ F41 "PI[10..21]" U R 3050 2750 50
 F42 "PG[0..11]" U R 3050 3025 50 
 F43 "PH[0..27]" U R 3050 3325 50 
 F44 "PB[2..23]" U R 3050 3625 50 
+F45 "3V3" U L 1500 1025 50 
 $EndSheet
 Text GLabel 1150 950  0    30   UnSpc ~ 0
 5V
@@ -1503,6 +1504,7 @@ F5 "HPL" U L 5850 2950 60
 F6 "HPR" U L 5850 3050 60 
 F7 "LINL" U L 5850 3150 60 
 F8 "LINR" U L 5850 3250 60 
+F9 "VMIC" U L 5850 2450 60 
 $EndSheet
 Text GLabel 5575 3150 0    30   UnSpc ~ 0
 LINL
@@ -1533,7 +1535,7 @@ Wire Wire Line
 Wire Wire Line
 	5575 3250 5850 3250
 $Sheet
-S 5975 3875 575  1050
+S 5975 3875 1025 1050
 U 53E58617
 F0 "lcd" 50
 F1 "lcd.sch" 50
@@ -1543,6 +1545,9 @@ F4 "X1" U L 5975 4350 60
 F5 "X2" U L 5975 4450 60 
 F6 "Y1" U L 5975 4550 60 
 F7 "Y2" U L 5975 4650 60 
+F8 "PWM0" U R 7000 4350 60 
+F9 "PH27" U R 7000 4450 60 
+F10 "5V" U R 7000 4025 60 
 $EndSheet
 Text GLabel 5750 4025 0    30   UnSpc ~ 0
 GND
@@ -1794,4 +1799,24 @@ Wire Wire Line
 	7375 1200 7100 1200
 Wire Wire Line
 	7375 1300 7100 1300
+Text GLabel 1150 1025 0    30   UnSpc ~ 0
+3V3
+Wire Wire Line
+	1500 1025 1150 1025
+Text GLabel 7175 4025 2    30   UnSpc ~ 0
+5V
+Text GLabel 7175 4350 2    30   UnSpc ~ 0
+PWM0
+Wire Wire Line
+	7000 4350 7175 4350
+Wire Wire Line
+	7000 4025 7175 4025
+Text GLabel 5575 2450 0    30   UnSpc ~ 0
+VMIC
+Wire Wire Line
+	5575 2450 5850 2450
+Wire Wire Line
+	7000 4450 7275 4450
+Text Label 7100 4450 0    40   ~ 0
+PH27
 $EndSCHEMATC
