@@ -1,27 +1,17 @@
 Core-EVB
 ================
 
-History:
-
-V1.4
-
-Add the auto reset circuit.
-
-V1.3
-
-Improve the Mic and speaker circuit.
-
-Replace HLF-W12 to HLF-W15.
-
-Add the PWM and Power function in FPC.
-
-Fix the RJ45 LED bug.
-
-Fix some stablity issues.
-
-V1.2
-
-First release.
+    History:
+    V1.4
+    Add the auto reset circuit.
+    V1.3
+    Improve the Mic and speaker circuit.
+    Replace HLF-W12 to HLF-W15.
+    Add the PWM and Power function in FPC.
+    Fix the RJ45 LED bug.
+    Fix some stablity issues.
+    V1.2
+    First release.
 
 ================
 
