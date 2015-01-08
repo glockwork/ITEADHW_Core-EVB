@@ -1,6 +1,6 @@
 Core-EVB
 ================
-History
+History:
 V1.4
 Add the auto reset circuit.
 V1.3
